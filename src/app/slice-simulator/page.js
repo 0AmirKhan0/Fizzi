@@ -13,7 +13,7 @@ export default function SliceSimulatorPage() {
           <SliceZone {...props} components={components} />
         </div>
       )}
-      background=""
+      background=" "
       zIndex={10}
     />
   );
