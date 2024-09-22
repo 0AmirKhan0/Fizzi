@@ -7,10 +7,14 @@ import { components } from "@/slices";
 
 export default function SliceSimulatorPage() {
   return (
-    <SliceSimulator background="" zIndex={10}>
-      <div className="max-h-[900px]">
-        <SliceZone slices={slices} components={components} />
-      </div>
-    </SliceSimulator>
+    <SliceSimulator
+      sliceZone={(props) => (
+        <div className="max-h-[900px]">
+          <SliceZone {...props} components={components} />
+        </div>
+      )}
+      background=""
+      zIndex={10}
+    />
   );
 }
