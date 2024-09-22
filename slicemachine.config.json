@@ -1,0 +1,6 @@
+{
+  "libraries": ["./src/slices"],
+  "adapter": "@slicemachine/adapter-next",
+  "repositoryName": "fizzi-amirkhan",
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+}

@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Truck"
+						}
+					}
+				]
+			},
+			"price_copy": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Excepteur duis reprehenderit velit eiusmod fugiat exercitation in qui voluptate excepteur dolore id veniam. Anim nisi enim anim ut sint minim sit adipisicing commodo fugiat anim dolore dolor adipisicing qui."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
